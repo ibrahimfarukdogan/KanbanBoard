@@ -63,42 +63,6 @@ namespace KanbanBoardBackend.Controllers
             return Ok(board);
         }
 
-        // PUT: api/Boards/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutBoards(int id, Boards boards)
-        {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);  // Return validation errors
-            }
-
-            if (id != boards.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(boards).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!BoardsExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
-        }
-
         // POST: api/Boards
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]

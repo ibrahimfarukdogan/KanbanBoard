@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\dtos\\listdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:dtos\\listdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\dtos\\boarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Cards.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Models\\Cards.cs",
               "RelativeDocumentMoniker": "Models\\Cards.cs",
@@ -74,7 +74,8 @@
               "RelativeToolTip": "Models\\Cards.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T14:43:25.338Z"
+              "WhenOpened": "2025-02-08T14:43:25.338Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,22 +85,23 @@
               "RelativeDocumentMoniker": "Controllers\\CardsController.cs",
               "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Controllers\\CardsController.cs",
               "RelativeToolTip": "Controllers\\CardsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAcwCEAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T02:25:06.097Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BoardsController.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Controllers\\BoardsController.cs",
               "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
               "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Controllers\\BoardsController.cs",
               "RelativeToolTip": "Controllers\\BoardsController.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAwwJAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:52:48.413Z"
+              "WhenOpened": "2025-02-08T19:52:48.413Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -115,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ListDTO.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\DTOs\\ListDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\ListDTO.cs",
@@ -127,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Boards.cs",
               "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Models\\Boards.cs",
               "RelativeDocumentMoniker": "Models\\Boards.cs",

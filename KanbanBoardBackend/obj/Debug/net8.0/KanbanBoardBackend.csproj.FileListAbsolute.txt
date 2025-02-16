@@ -285,3 +285,4 @@ C:\Users\Monster\Documents\Odev\RastAcademyTask\KanbanBoardBackend\obj\Debug\net
 C:\Users\Monster\Documents\Odev\RastAcademyTask\KanbanBoardBackend\obj\Debug\net8.0\KanbanBoardBackend.pdb
 C:\Users\Monster\Documents\Odev\RastAcademyTask\KanbanBoardBackend\obj\Debug\net8.0\KanbanBoardBackend.genruntimeconfig.cache
 C:\Users\Monster\Documents\Odev\RastAcademyTask\KanbanBoardBackend\obj\Debug\net8.0\ref\KanbanBoardBackend.dll
+C:\Users\Monster\Documents\Odev\RastAcademyTask\KanbanBoardBackend\obj\Debug\net8.0\KanbanBoardBackend.sourcelink.json
