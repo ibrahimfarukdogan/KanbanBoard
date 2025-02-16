@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:controllers\\cardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:models\\cards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\models\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:models\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\dtos\\listdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:dtos\\listdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:controllers\\boardscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\dtos\\boarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:dtos\\boarddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\data\\kanbanboardbackenddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:data\\kanbanboardbackenddbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|c:\\users\\monster\\documents\\odev\\rastacademytask\\kanbanboardbackend\\migrations\\20250209181018_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EEFD5D33-DD65-4465-9E0D-C61E01C6EA01}|KanbanBoardBackend.csproj|solutionrelative:migrations\\20250209181018_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T15:16:16.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cards.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Models\\Cards.cs",
+              "RelativeDocumentMoniker": "Models\\Cards.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Models\\Cards.cs",
+              "RelativeToolTip": "Models\\Cards.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:43:25.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CardsController.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Controllers\\CardsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CardsController.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Controllers\\CardsController.cs",
+              "RelativeToolTip": "Controllers\\CardsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T02:25:06.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BoardsController.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Controllers\\BoardsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BoardsController.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Controllers\\BoardsController.cs",
+              "RelativeToolTip": "Controllers\\BoardsController.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAwwJAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T19:52:48.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\DTOs\\BoardDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\BoardDTO.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\DTOs\\BoardDTO.cs",
+              "RelativeToolTip": "DTOs\\BoardDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:38:15.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ListDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\DTOs\\ListDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\ListDTO.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\DTOs\\ListDTO.cs",
+              "RelativeToolTip": "DTOs\\ListDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T04:38:23.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Boards.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Models\\Boards.cs",
+              "RelativeDocumentMoniker": "Models\\Boards.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Models\\Boards.cs",
+              "RelativeToolTip": "Models\\Boards.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:43:09.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAACkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:21:01.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KanbanBoardBackendDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Data\\KanbanBoardBackendDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\KanbanBoardBackendDbContext.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Data\\KanbanBoardBackendDbContext.cs",
+              "RelativeToolTip": "Data\\KanbanBoardBackendDbContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:19:23.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250209181018_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Migrations\\20250209181018_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250209181018_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Migrations\\20250209181018_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20250209181018_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T18:10:18.698Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

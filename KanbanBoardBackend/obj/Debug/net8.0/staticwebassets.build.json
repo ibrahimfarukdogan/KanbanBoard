@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NFNGujQrpxvltmku4ZbpyvLjQvVVhMjZUVAZY4tVjvE=",
+  "Source": "KanbanBoardBackend",
+  "BasePath": "_content/KanbanBoardBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
