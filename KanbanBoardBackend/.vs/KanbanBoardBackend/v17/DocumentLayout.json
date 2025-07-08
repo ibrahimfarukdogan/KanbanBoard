@@ -62,8 +62,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-08T15:16:16.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T15:16:16.048Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "Models\\Cards.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T14:43:25.338Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T14:43:25.338Z"
             },
             {
               "$type": "Document",
@@ -88,8 +86,7 @@
               "RelativeToolTip": "Controllers\\CardsController.cs",
               "ViewState": "AQIAAEEAAAAAAAAAAAAYwJEAAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T02:25:06.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T02:25:06.097Z"
             },
             {
               "$type": "Document",
@@ -101,8 +98,7 @@
               "RelativeToolTip": "Controllers\\BoardsController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T19:52:48.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T19:52:48.413Z"
             },
             {
               "$type": "Document",
@@ -148,7 +144,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Monster\\Documents\\Odev\\RastAcademyTask\\KanbanBoardBackend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAACAAAAAqAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAACMAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T15:21:01.9Z",
               "EditorCaption": ""
