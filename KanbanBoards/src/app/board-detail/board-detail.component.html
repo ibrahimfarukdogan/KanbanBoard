@@ -1,0 +1,44 @@
+<div class="board-detail" *ngIf="board">
+  <div class="board-detail-container">
+    <div class="TopTitleRow">
+      <div class="TopTitle">
+      <h1>Roadmap</h1>
+      <a
+        href="https://www.figma.com/design/afDe3d7Z3SfKIfR0AN7Pyo/Kanban-board-(Community)?node-id=0-1&p=f&t=dEQrQelj36hRGIT1-0">By
+        {{ board.creatorName }} <span style="color: #d6d6d6;">Visit website</span></a>
+      </div>
+    <div *ngIf="errorMessage" class="errorMessage">
+      <p>{{ errorMessage }}</p>
+    </div>
+  </div>
+    
+    <div class="lists" cdkDropListGroup>
+      <div *ngFor="let list of board.lists.$values" class="list" cdkDropList [cdkDropListData]="list" (cdkDropListDropped)="onCardDrop($event)">
+        <h4>{{ list.title }}</h4>
+        <div *ngIf="list.cards.$values && list.cards.$values.length > 0" class="cards-container">
+          <div *ngFor="let card of list.cards.$values" class="card" [ngClass]="{
+            'card-pink': card.color === 'Pink',
+            'card-purple': card.color === 'Purple',
+            'card-blue': card.color === 'Blue',
+            'card-red': card.color === 'Red',
+            'card-green': card.color === 'Green'
+          }" cdkDrag [cdkDragData]="card">
+            <h3>{{ card.title }}</h3>
+            <p *ngIf="card.description">{{ card.description }}</p>
+            <span *ngIf="card.tag">{{ card.tag }}</span>
+
+            <div class="overlay2">
+              <button (click)="navigateToCardUpdate(list.id, card.id)" class="update-card-button">🔧</button>
+              <button (click)="RemoveCard (card)" class="remove-card-button">❌</button>
+            </div>
+            
+          </div>
+        </div>
+        <div class="overlay">
+          <button (click)="navigateToCardCreate(list.id)" class="add-card-button">+</button>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>

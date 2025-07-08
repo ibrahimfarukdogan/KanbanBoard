@@ -1,0 +1,38 @@
+<div class="card">
+  <div class="card-container">
+    <h2>Create a New Card</h2>
+
+    <form [formGroup]="cardForm" (ngSubmit)="onSubmit()">
+      <div class="cardfield">
+        <div class="cardfieldtitle">
+          <label for="title">Card Title</label>
+          <div *ngIf="cardForm.controls.title.invalid && cardForm.controls.title.touched">
+            <p *ngIf="cardForm.controls.title.errors?.['required']">Title is required.</p>
+          </div>
+        </div>
+        <input id="title" formControlName="title" required />
+      </div>
+
+      <div class="cardfield">
+        <label for="description">Description</label>
+        <input id="description" formControlName="description" />
+      </div>
+
+      <div class="cardfield">
+        <label for="color">Color</label>
+        <input id="color" formControlName="color" />
+      </div>
+
+      <div class="cardfield">
+        <label for="tag">Tag</label>
+        <input id="tag" formControlName="tag" />
+      </div>
+
+      <button type="submit" [disabled]="!cardForm.valid">Create Card</button>
+    </form>
+
+    <div *ngIf="errorMessage">
+      <p>{{ errorMessage }}</p>
+    </div>
+  </div>
+</div>

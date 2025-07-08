@@ -1,0 +1,334 @@
+.board-detail {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board-detail-container {
+  color: white;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.TopTitleRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+.TopTitle {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.TopTitle h1 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.TopTitle a {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+}
+
+.errorMessage {
+  margin: 0;
+  text-align: right;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+.errorMessage p {
+  color: red;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  width: 320px;
+  margin-bottom: 14px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 260px;
+  margin-left: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12), 0px 16px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  padding: 24px;
+  row-gap: 10px;
+}
+
+.card-pink {
+  background-color: #C340A1;
+}
+
+.card-purple {
+  background-color: #6A6DCD;
+}
+
+.card-blue {
+  background-color: #307FE2;
+}
+
+.card-red {
+  background-color: #D93535;
+}
+
+.card-green {
+  background-color: #00A88B;
+}
+
+.card h3 {
+  width: 260px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  margin: 0;
+  text-align: left;
+}
+
+.card p {
+  width: 260px;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  text-align: left;
+
+}
+
+.card span {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.75);
+
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 2px 8px;
+  width: fit-content;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 2px;
+}
+
+.card:hover .overlay2 {
+  opacity: 1;
+  /* Fade in the overlay */
+}
+
+.overlay2 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+  /* Fade-in effect */
+  border-radius: 16px;
+  /* Match the border-radius of the list */
+  opacity: 0;
+  /* Fade in the overlay */
+  top: 5px;
+  width: 260px;
+}
+
+/* Button styling */
+.remove-card-button {
+  position: relative;
+  background-color: #531717;
+  /* Button color */
+  color: white;
+  width: 23px;
+  height: 20px;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px white solid;
+}
+
+.remove-card-button:hover {
+  background-color: #5c5c5c;
+  /* Darker blue when hovered */
+}
+
+.update-card-button {
+  position: relative;
+  background-color: #18296d;
+  /* Button color */
+  color: white;
+  width: 22px;
+  height: 20px;
+  font-size: 11px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px white solid;
+}
+
+.update-card-button:hover {
+  background-color: #5c5c5c;
+  /* Darker blue when hovered */
+}
+
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+p {
+  color: white;
+}
+
+.lists {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: space-between;
+
+  position: relative;
+  width: fit-content;
+  border-radius: 16px;
+}
+
+.list {
+  width: 328px;
+  height: fit-content;
+  background-color: #262626;
+  /* Add background color for visibility */
+  padding: 10px;
+  border-radius: 16px;
+  gap: 16px;
+}
+
+.list h4 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  color: #FFFFFF;
+  align-self: stretch;
+  margin: 20px;
+  text-align: left;
+}
+
+.overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  transition: opacity 0.3s ease-in-out;
+  /* Fade-in effect */
+  border-radius: 16px;
+  /* Match the border-radius of the list */
+  opacity: 0;
+  /* Fade in the overlay */
+  top: 25px;
+  width: 328px;
+}
+
+/* Button styling */
+.add-card-button {
+  position: relative;
+  background-color: #383838;
+  /* Button color */
+  color: white;
+  font-size: 30px;
+  padding: 5px 13px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: 1px white solid;
+}
+
+.add-card-button:hover {
+  background-color: #000000;
+  /* Darker blue when hovered */
+}
+
+/* Show the overlay when hovering over the list container */
+.list:hover .overlay {
+  opacity: 1;
+}
+
+
+.lists {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* 4 cards per row */
+  gap: 20px;
+
+}
+
+/* Mid-small screens - show 3 card per row */
+@media (max-width: 1470px) {
+  .lists {
+    grid-template-columns: repeat(3, 1fr);
+    /* 2 cards per row */
+  }
+}
+
+/* Mid-small screens - show 2 card per row */
+@media (max-width: 1160px) {
+  .lists {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cards per row */
+  }
+}
+
+/* Smaller screens - show 1 card per row */
+@media (max-width: 790px) {
+  .lists {
+    grid-template-columns: 1fr;
+    /* 1 card per row */
+  }
+}
+
+/* Smallest */
+@media (max-width: 400px) {
+  .lists {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    /* Smaller gap on very small screens */
+  }
+
+  .list {
+    width: 100%;
+    /* Ensure the card takes full width on small screens */
+  }
+}

@@ -1,0 +1,8 @@
+<div class="recent-pages">
+    <h3>Last Visited Pages</h3>
+    <ul>
+      <li *ngFor="let page of recentPages">
+        <a [href]="page">{{ page }}</a>
+      </li>
+    </ul>
+  </div>

@@ -1,0 +1,80 @@
+/* Base styles for larger screens */
+.homepage {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  height: 300px;
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(6, 60, 131);
+  border-radius: 35px;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+button {
+  background-color: #00aad5;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  color: #a14b0e;
+  margin-top: 50px;
+  border: 1px #009ccc solid;
+}
+
+button:hover {
+  background-color: #181818;
+  color: #adadad;
+  border: 1px #ff0000 solid;
+}
+
+/* Media Query for medium to smaller screens */
+@media (max-width: 1300px) {
+  .container {
+    width: 90%;
+    /* Reduce the width to 90% */
+    height: auto;
+    /* Let the height adjust automatically */
+    padding: 20px;
+    /* Add some padding for better spacing */
+  }
+
+  h1 {
+    font-size: 24px;
+    /* Smaller font size for better readability */
+    margin: 10px 0;
+    /* Reduce the margin between headings */
+  }
+
+  button {
+    width: 120px;
+    /* Smaller button width */
+    height: 120px;
+    /* Smaller button height */
+    font-size: 24px;
+    /* Smaller font size for the button */
+    margin-top: 30px;
+    /* Reduced margin */
+  }
+}

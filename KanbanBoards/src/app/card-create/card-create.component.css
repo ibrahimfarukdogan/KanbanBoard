@@ -1,0 +1,105 @@
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 328px;
+    height: 650px;
+    background-color: #262626;
+    /* Add background color for visibility */
+    padding: 10px;
+    border-radius: 16px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container h2 {
+    width: fit-content;
+    font-family: 'Lato';
+    font-style: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.card-container label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 147.5%;
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.card-container input {
+    box-sizing: border-box;
+    padding: 22px 33px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 318px;
+    height: 62px;
+    background: #FFFFFF;
+    border: 1px solid #C1C1C1;
+    border-radius: 54px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 147.5%;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.cardfieldtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 28px;
+}
+
+.cardfieldtitle p {
+    color: red;
+}
+
+.cardfield {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+}
+
+.card-container button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    align-items: center;
+    flex-direction: row;
+    background: #4acfff;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px #868686 solid;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 147.5%;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.card-container button:hover {
+    border: 1px white solid;
+    background: #3cb0da;
+}

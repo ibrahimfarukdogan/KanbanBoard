@@ -1,0 +1,35 @@
+.recent-pages {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000px;
+  }
+  
+  .recent-pages h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .recent-pages ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .recent-pages li {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  
+  .recent-pages a {
+    text-decoration: none;
+    color: white;
+    word-wrap: break-word;
+  }
